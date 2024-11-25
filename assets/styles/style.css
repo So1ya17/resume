@@ -585,6 +585,24 @@ body {
     }
 }
 
+@media (max-width: 450px) {
+    .about_us {
+        width: 380px;
+    }
+
+    .about_us h2 {
+        font-size: 24px;
+    }
+
+    .about_us p {
+        line-height: 22px;
+    }
+
+    .skills {
+        width: 380px;
+    }
+}
+
 @media (max-width: 375px) {
     .about_us {
         width: 280px;
