@@ -196,8 +196,9 @@ body {
     }
 
     .header_name h1:hover {
-        transform: none; /* Убираем эффект при наведении */
-        font-size: inherit; /* Возвращаем к исходному размеру */
+        transform: none;
+        font-size: inherit;
+        box-shadow: none;
     }
 }
 
@@ -236,6 +237,7 @@ body {
     .header_name h1:hover {
         transform: none;
         font-size: inherit;
+        box-shadow: none;
     }
 }
 
@@ -274,6 +276,7 @@ body {
     .header_name h1:hover {
         transform: none;
         font-size: inherit;
+        box-shadow: none;
     }
 }
 
@@ -312,5 +315,6 @@ body {
     .header_name h1:hover {
         transform: none;
         font-size: inherit;
+        box-shadow: none;
     }
 }
