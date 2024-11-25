@@ -200,6 +200,12 @@ body {
         font-size: inherit;
         box-shadow: none;
     }
+
+    .header_name h1:active {
+        transform: none;
+        font-size: inherit;
+        box-shadow: none;
+    }
 }
 
 @media (max-width: 768px) {
@@ -232,12 +238,6 @@ body {
     .header_link a {
         font-size: 24px; /* Уменьшаем размер текста */
         padding: 12px; /* Уменьшаем отступы */
-    }
-
-    .header_name h1:hover {
-        transform: none;
-        font-size: inherit;
-        box-shadow: none;
     }
 }
 
@@ -272,12 +272,6 @@ body {
         font-size: 16px; /* Уменьшаем размер текста */
         padding: 12px; /* Уменьшаем отступы */
     }
-
-    .header_name h1:hover {
-        transform: none;
-        font-size: inherit;
-        box-shadow: none;
-    }
 }
 
 @media (max-width: 375px) {
@@ -310,11 +304,5 @@ body {
     .header_link a {
         font-size: 12px; /* Уменьшаем размер текста */
         padding: 12px; /* Уменьшаем отступы */
-    }
-
-    .header_name h1:hover {
-        transform: none;
-        font-size: inherit;
-        box-shadow: none;
     }
 }
