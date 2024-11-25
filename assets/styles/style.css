@@ -436,7 +436,6 @@ body {
 
     .about_us h2 {
         font-size: 36px;
-        letter-spacing: 3px;
     }
 
     .about_us p {
@@ -451,17 +450,11 @@ body {
 
     .skills h2 {
         font-size: 36px;
-        letter-spacing: 3px;
     }
 
     .list_container {
         padding: 10px;
         font-size: 18px;
-        color: #D3D3D3;
-    }
-
-    .nested_list {
-        margin-left: 20px;
     }
 }
 
@@ -478,7 +471,6 @@ body {
 
     .about_us h2 {
         font-size: 46px;
-        letter-spacing: 3px;
     }
 
     .about_us p {
@@ -495,17 +487,39 @@ body {
 
     .skills h2 {
         font-size: 46px;
-        letter-spacing: 3px;
     }
 
     .list_container {
         padding: 20px;
         font-size: 20px;
-        color: #D3D3D3;
+    }
+}
+
+@media (max-width: 850px) {
+    .about_us {
+        width: 800px;
     }
 
-    .nested_list {
-        margin-left: 20px;
+    .about_us h2 {
+        font-size: 42px;
+    }
+
+    .about_us p {
+        font-size: 18px;
+        line-height: 36px;
+        height: 150px;
+    }
+
+    .skills {
+        width: 800px;
+    }
+
+    .skills h2 {
+        font-size: 42px;
+    }
+
+    .list_container {
+        font-size: 18px;
     }
 }
 
