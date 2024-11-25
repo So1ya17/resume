@@ -573,7 +573,7 @@ body {
 
 @media (max-width: 375px) {
     .about_us {
-        width: 300px;
+        width: 280px;
     }
 
     .about_us h2 {
@@ -588,7 +588,7 @@ body {
     }
 
     .skills {
-        width: 300px;
+        width: 280px;
     }
 
     .skills h2 {
@@ -597,6 +597,7 @@ body {
     }
 
     .list_container {
+        margin-top: 1px;
         font-size: 12px;
     }
 }
