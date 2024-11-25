@@ -155,16 +155,16 @@ body {
     }
 
     .header_name h1 {
-        font-size: 58px; /* Уменьшаем размер текста */
+        font-size: 58px; 
     }
 
     .header_descr h2 {
-        font-size: 32px; /* Уменьшаем размер текста */
+        font-size: 32px;
     }
 
     .header_link a {
-        font-size: 24px; /* Уменьшаем размер текста */
-        padding: 15px; /* Уменьшаем отступы */
+        font-size: 24px; 
+        padding: 15px; 
     }
 }
 
@@ -178,12 +178,12 @@ body {
 
     .header_name h1 {
         margin-top: 35px;
-        font-size: 60px; /* Уменьшаем размер текста */
+        font-size: 60px;
     }
 
     .header_descr h2 {
         margin-top: 25px;
-        font-size: 46px; /* Уменьшаем размер текста */
+        font-size: 46px; 
     }
 
     .header_link {
@@ -191,25 +191,13 @@ body {
     }
 
     .header_link a {
-        font-size: 32px; /* Уменьшаем размер текста */
-        padding: 12px; /* Уменьшаем отступы */
+        font-size: 32px;
+        padding: 12px; 
     }
 
     .header_name h1:hover {
         transform: none;
-        font-size: inherit;
-        box-shadow: none;
-    }
-
-    .header_name h1:active {
-        transform: none;
-        font-size: inherit;
-        box-shadow: none;
-    }
-
-    .header_name h1:focus {
-        transform: none;
-        font-size: inherit;
+        font-size: 60px;
         box-shadow: none;
     }
 }
@@ -229,12 +217,12 @@ body {
 
     .header_name h1 {
         margin-top: 25px;
-        font-size: 52px; /* Уменьшаем размер текста */
+        font-size: 52px; 
     }
 
     .header_descr h2 {
         margin-top: 25px;
-        font-size: 32px; /* Уменьшаем размер текста */
+        font-size: 32px;
     }
 
     .header_link {
@@ -242,25 +230,13 @@ body {
     }
 
     .header_link a {
-        font-size: 24px; /* Уменьшаем размер текста */
-        padding: 12px; /* Уменьшаем отступы */
+        font-size: 24px; 
+        padding: 12px; 
     }
 
     .header_name h1:hover {
         transform: none;
-        font-size: inherit;
-        box-shadow: none;
-    }
-
-    .header_name h1:active {
-        transform: none;
-        font-size: inherit;
-        box-shadow: none;
-    }
-
-    .header_name h1:focus {
-        transform: none;
-        font-size: inherit;
+        font-size: 52px;
         box-shadow: none;
     }
 }
@@ -280,12 +256,12 @@ body {
 
     .header_name h1 {
         margin-top: 25px;
-        font-size: 40px; /* Уменьшаем размер текста */
+        font-size: 40px; 
     }
 
     .header_descr h2 {
         margin-top: 25px;
-        font-size: 20px; /* Уменьшаем размер текста */
+        font-size: 20px;
     }
 
     .header_link {
@@ -293,25 +269,13 @@ body {
     }
 
     .header_link a {
-        font-size: 16px; /* Уменьшаем размер текста */
-        padding: 12px; /* Уменьшаем отступы */
+        font-size: 16px; 
+        padding: 12px; 
     }
 
     .header_name h1:hover {
         transform: none;
-        font-size: inherit;
-        box-shadow: none;
-    }
-
-    .header_name h1:active {
-        transform: none;
-        font-size: inherit;
-        box-shadow: none;
-    }
-
-    .header_name h1:focus {
-        transform: none;
-        font-size: inherit;
+        font-size: 40px;
         box-shadow: none;
     }
 }
@@ -331,12 +295,12 @@ body {
 
     .header_name h1 {
         margin-top: 15px;
-        font-size: 28px; /* Уменьшаем размер текста */
+        font-size: 28px; 
     }
 
     .header_descr h2 {
         margin-top: 5px;
-        font-size: 14px; /* Уменьшаем размер текста */
+        font-size: 14px; 
     }
 
     .header_link {
@@ -344,25 +308,13 @@ body {
     }
 
     .header_link a {
-        font-size: 12px; /* Уменьшаем размер текста */
-        padding: 12px; /* Уменьшаем отступы */
+        font-size: 12px;
+        padding: 12px; 
     }
 
     .header_name h1:hover {
         transform: none;
-        font-size: inherit;
-        box-shadow: none;
-    }
-
-    .header_name h1:active {
-        transform: none;
-        font-size: inherit;
-        box-shadow: none;
-    }
-    
-    .header_name h1:focus {
-        transform: none;
-        font-size: inherit;
+        font-size: 28px;
         box-shadow: none;
     }
 }
