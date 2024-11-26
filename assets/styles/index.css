@@ -110,7 +110,9 @@ body {
 
 @media (max-width: 768px) {
     .header {
-        width: calc(100% - 20px);
+        margin-left: 5px;
+        margin-right: 5px;
+        width: calc(100% - 10px);
     }
 
     .menu {
@@ -146,7 +148,6 @@ body {
     }
 }
 
-/* Для экранов 420px и меньше */
 @media (max-width: 420px) {
     .navigation_item a {
         font-size: 16px;
@@ -225,17 +226,15 @@ body {
     color: var(--secondary-text-color);
 }
 
-@media (min-width: 1300px) {
-    .resume_text p {
-        margin-top: 15px;
-        font-size: 22px;
-        line-height: 44px;
-    }
-}
-
 @media (max-width: 889px) {
+    .main {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: calc(100% - 40px);
+    }
+
     .resume_image {
-        max-width: 35%;
+        max-width: 40%;
     }
 
     .resume_text {
@@ -252,6 +251,12 @@ body {
 }
 
 @media (max-width: 768px) {
+    .main {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: calc(100% - 10px);
+    }
+
     .resume_text h2 {
         font-size: 26px;
     }
@@ -288,8 +293,8 @@ body {
         font-size: 18px;
     }
 }
-/* skills */
 
+/* skills */
 .skills {
     margin-top: 75px;
     margin-left: auto;
@@ -338,14 +343,6 @@ body {
     margin-left: 20px;
 }
 
-@media (min-width: 1300px) {
-    .skills_list {
-        margin-left: 25px;
-        margin-right: 25px;
-        font-size: 20px;
-    }
-}
-
 @media (max-width: 889px) {
     .skills {
         margin-left: 20px;
@@ -363,6 +360,12 @@ body {
 }
 
 @media (max-width: 768px) {
+    .skills {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: calc(100% - 10px);
+    }
+
     .skills {
         padding: 15px;
     }
@@ -399,7 +402,6 @@ body {
     }
 }
 
-/* Для экранов 370px и меньше */
 @media (max-width: 370px) {
     .skills {
         margin-top: 50px;
@@ -411,7 +413,6 @@ body {
 }
 
 /* projects */
-
 .projects {
     margin-top: 75px;
     margin-left: auto;
@@ -507,11 +508,11 @@ body {
     }
 }
 
-/* Для экранов 768px и меньше */
 @media (max-width: 768px) {
     .projects {
-        padding: 15px;
-        /* Уменьшаем отступы */
+        margin-left: 5px;
+        margin-right: 5px;
+        width: calc(100% - 10px);
     }
 
     .projects h2 {
@@ -587,7 +588,6 @@ body {
 }
 
 /* footer */
-
 .footer {
     margin-top: 75px;
     margin-left: 75px;
@@ -638,6 +638,12 @@ body {
 }
 
 @media (max-width: 889px) {
+    .footer {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: calc(100% - 40px);
+    }
+
     .contacts {
         padding: 20px;
     }
@@ -652,6 +658,12 @@ body {
 }
 
 @media (max-width: 768px) {
+    .footer {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: calc(100% - 10px);
+    }
+
     .contacts h2 {
         font-size: 28px;
     }
