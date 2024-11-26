@@ -90,10 +90,8 @@ body {
 
 .navigation_item a.active {
     color: var(--secondary-text-color);
-    /* Цвет для активной ссылки */
 }
 
-/* Для экранов 889px и меньше */
 @media (max-width: 889px) {
     .header {
         margin-left: 20px;
@@ -102,28 +100,21 @@ body {
     }
 
     .menu {
-        flex-direction: column;
-        /* Вертикальное расположение */
         align-items: center;
     }
 
     .navigation_item {
         gap: 20px;
-        /* Уменьшаем отступы */
     }
 }
 
-/* Для экранов 768px и меньше */
 @media (max-width: 768px) {
     .header {
-        margin-left: 10px;
-        margin-right: 10px;
         width: calc(100% - 20px);
     }
 
     .menu {
         padding: 15px;
-        /* Уменьшаем отступы */
     }
 
     .navigation_item {
@@ -131,39 +122,27 @@ body {
     }
 }
 
-/* Для экранов 500px и меньше */
 @media (max-width: 500px) {
     .logo {
-        margin-left: 0;
-        margin-right: 0;
         text-align: center;
-        /* Центрируем логотип */
     }
 
     .navigation_menu {
-        margin-right: 0;
-        margin-left: 0;
         justify-content: center;
-        /* Центрируем меню */
     }
 
     .navigation_item {
-        flex-direction: column;
-        /* Вертикальное расположение */
         gap: 10px;
     }
 }
 
-/* Для экранов 480px и меньше */
 @media (max-width: 480px) {
     .header {
         padding: 10px 0;
-        /* Уменьшаем отступы */
     }
 
     .navigation_item a {
         font-size: 18px;
-        /* Уменьшаем размер шрифта */
     }
 }
 
@@ -171,20 +150,16 @@ body {
 @media (max-width: 420px) {
     .navigation_item a {
         font-size: 16px;
-        /* Еще меньше шрифт */
     }
 }
 
-/* Для экранов 370px и меньше */
 @media (max-width: 370px) {
     .header {
         padding: 5px 0;
-        /* Минимальные отступы */
     }
 
     .navigation_item a {
         font-size: 14px;
-        /* Минимальный размер шрифта */
     }
 }
 
@@ -258,6 +233,61 @@ body {
     }
 }
 
+@media (max-width: 889px) {
+    .resume_image {
+        max-width: 35%;
+    }
+
+    .resume_text {
+        max-width: 50%;
+    }
+
+    .resume_text h2 {
+        font-size: 28px;
+    }
+
+    .resume_text p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .resume_text h2 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 500px) {
+    .resume_text h2 {
+        font-size: 24px;
+    }
+
+    .resume_text p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .resume_text {
+        padding: 15px;
+    }
+
+    .resume_text p {
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 420px) {
+    .resume_text h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 370px) {
+    .resume_text h2 {
+        font-size: 18px;
+    }
+}
 /* skills */
 
 .skills {
@@ -313,6 +343,70 @@ body {
         margin-left: 25px;
         margin-right: 25px;
         font-size: 20px;
+    }
+}
+
+@media (max-width: 889px) {
+    .skills {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: calc(100% - 40px);
+    }
+
+    .skills h2 {
+        font-size: 28px;
+    }
+
+    .skills_list {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .skills {
+        padding: 15px;
+    }
+
+    .skills h2 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 500px) {
+    .skills {
+        padding: 10px;
+    }
+
+    .skills h2 {
+        font-size: 24px;
+    }
+
+    .skills_list {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .skills_list {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+@media (max-width: 420px) {
+    .skills h2 {
+        font-size: 20px;
+    }
+}
+
+/* Для экранов 370px и меньше */
+@media (max-width: 370px) {
+    .skills {
+        margin-top: 50px;
+    }
+
+    .skills h2 {
+        font-size: 18px;
     }
 }
 
@@ -380,7 +474,7 @@ body {
     content: '';
     position: absolute;
     top: 0;
-    left: -100%;
+    left: -120%;
     width: 100%;
     height: 100%;
     background-color: var(--main-text-color);
@@ -395,6 +489,101 @@ body {
 
 .projects_btn a:hover {
     color: var(--secondary-text-color);
+}
+
+@media (max-width: 889px) {
+    .projects {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: calc(100% - 40px);
+    }
+
+    .projects h2 {
+        font-size: 28px;
+    }
+
+    .projects_item img {
+        border-radius: 15px;
+    }
+}
+
+/* Для экранов 768px и меньше */
+@media (max-width: 768px) {
+    .projects {
+        padding: 15px;
+        /* Уменьшаем отступы */
+    }
+
+    .projects h2 {
+        font-size: 26px;
+    }
+
+    .projects_item {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .projects {
+        padding: 10px;
+    }
+
+    .projects h2 {
+        font-size: 24px;
+    }
+
+    .projects_item {
+        padding: 10px;
+    }
+
+    .projects_btn {
+        margin-top: 25px;
+    }
+
+    .projects_btn a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .project_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects_item {
+        margin-top: 20px;
+    }
+
+    .projects {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 85%;
+    }
+
+    .projects_btn {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    .projects h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 370px) {
+    .projects {
+        margin-top: 50px;
+    }
+
+    .projects h2 {
+        font-size: 18px;
+    }
+
+    .projects_btn a {
+        padding: 10px;
+    }
 }
 
 /* footer */
@@ -446,4 +635,70 @@ body {
 
 .contacts_item a:hover {
     opacity: .7;
+}
+
+@media (max-width: 889px) {
+    .contacts {
+        padding: 20px;
+    }
+
+    .contacts h2 {
+        font-size: 32px;
+    }
+
+    .contacts_item {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contacts h2 {
+        font-size: 28px;
+    }
+
+    .contacts_item {
+        margin-top: 30px;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 500px) {
+    .contacts {
+        padding: 15px;
+    }
+
+    .contacts h2 {
+        font-size: 24px;
+    }
+
+    .contacts_item {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contacts_item p {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    .contacts h2 {
+        font-size: 20px;
+    }
+
+    .contacts_item {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 370px) {
+    .contacts h2 {
+        font-size: 18px;
+    }
+
+    .contacts_item {
+        font-size: 14px;
+    }
 }
