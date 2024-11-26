@@ -1,98 +1,153 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/index.css">
 </head>
-<body>
 
+<body>
     <header class="header">
-        <div class="header_container flex">
-            <div class="header_image">
-                <img src="assets/images/resume_photo.jpg" alt="my_photo">
-            </div>
-            <div class="header_text flex">
-                <div class="header_name">
-                    <h1>Вадим Миначев</h1>
+        <div class="container">
+            <div class="menu flex">
+                <div class="logo">
+                    <h2><a href="./index.html">WHCD.</a></h2>
                 </div>
-                <div class="header_descr">
-                    <h2>Начинающий специалист в IT</h2>
-                </div>
-                <div class="header_hr">
-                    <hr>
-                </div>
-                <div class="header_link">
-                    <a href="./projects.html">Проекты</a>
-                </div>
+                <nav class="navigation_menu flex">
+                    <ul class="navigation_item flex">
+                        <li><a href="#header" class="nav-link">Главная</a></li>
+                        <li><a href="#skills" class="nav-link">Навыки</a></li>
+                        <li><a href="#projects" class="nav-link">Проекты</a></li>
+                        <li><a href="#contacts" class="nav-link">Контакты</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
 
     <main class="main">
-        <section class="main_container flex">
-            <div class="about_us">
-                <h2>О себе</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia cumque quam vitae laudantium obcaecati, repellat ducimus repudiandae voluptatum nobis perspiciatis, autem aut et nulla earum incidunt recusandae, delectus qui? Repellendus!</p>
-            </div>
-            <div class="skills">
-                <h2>Навыки</h2>
-                <div class="list_container flex">
-                    <ul>
-                        <li>
-                            Frontend-разработчик
-                            <ul class="nested_list">
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JS</li>
-                                <li>Bootstrap</li>
-                            </ul>
-                        </li>
-                        <li>
-                            Web-тестирование
-                            <ul class="nested_list">
-                                <li>DevTools, Postman</li>
-                                <li>Тестирование безопасности</li>
-                                <li>UI/UX - тестирование</li>
-                                <li>Тестирование серым ящиком</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            C++
-                            <ul class="nested_list">
-                                <li>Базовые основы языка</li>
-                            </ul>
-                        </li>
-                        <li>
-                            Golang
-                            <ul class="nested_list">
-                                <li>В изучение</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            PHP
-                            <ul class="nested_list">
-                                <li>Базовые основы языка</li>
-                            </ul>
-                        </li>
-                    </ul>
+        <section id="header">
+            <div class="container">
+                <div class="resume_container flex">
+                    <div class="resume_image">
+                        <img src="assets/images/resume_photo.jpg" alt="photo">
+                    </div>
+                    <div class="resume_text">
+                        <h2>О себе</h2>
+                        <hr>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse dolorem accusantium itaque
+                            quasi quibusdam blanditiis fuga impedit. Quos rem iure perspiciatis ut deserunt, animi,
+                            nulla molestiae, quia officiis atque aliquid.</p>
+                    </div>
                 </div>
             </div>
         </section>
-        <hr class="main_hr">
+
+        <section id="skills">
+            <div class="container flex">
+                <div class="skills">
+                    <h2>Навыки</h2>
+                    <div class="skills_container flex">
+                        <div class="skills_list">
+                            <ul class="heading_list">
+                                <li>
+                                    Frontend-разработчик
+                                    <ul class="nested_list">
+                                        <li>HTML, CSS, JS</li>
+                                        <li>Адаптивная верстка</li>
+                                        <li>Bootstrap</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="heading_list">
+                                <li>
+                                    QA
+                                    <ul class="nested_list">
+                                        <li>Web-тестирование</li>
+                                        <li>DevTools, Postman</li>
+                                        <li>Тестирование безопасности</li>
+                                        <li>Тестирование серым ящиком</li>
+                                        <li>UX/UI - тестирование</li>
+                                        <li>Ручное тестирование</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="skills_list">
+                            <ul class="heading_list">
+                                <li>
+                                    PHP
+                                    <ul class="nested_list">
+                                        <li>Базовые основы языка</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="heading_list">
+                                <li>
+                                    C++
+                                    <ul class="nested_list">
+                                        <li>Базовые основы языка</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li class="heading_list">
+                                    Golang
+                                    <ul class="nested_list">
+                                        <li>В процессе изучения</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="container">
+                <div class="projects">
+                    <h2>Проекты</h2>
+                    <div class="project_container flex">
+                        <div class="projects_item">
+                            <img src="assets/images/tinywow_default1_68207680.png" alt="">
+                        </div>
+                        <div class="projects_item">
+                            <img src="assets/images/tinywow_winter1_68207014.png" alt="">
+                        </div>
+                        <div class="projects_item">
+                            <img src="assets/images/tinywow_winter2_68207112.png" alt="">
+                        </div>
+                    </div>
+                    <div class="projects_btn">
+                        <a href="./projects.html">Еще проекты</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="footer">
-
+        <section id="contacts">
+            <div class="container">
+                <div class="contacts">
+                    <h2>Контакты</h2>
+                    <div class="contacts_item">
+                        <p><a href="https://t.me/stfu_m17" target="_blank">Telegram</a> - телеграм</p>
+                        <p><a href="mailto:So1ya19@yandex.ru" target="_blank">So1ya19@yandex.ru</a> - почта</p>
+                        <p><a href="tel:+79600806090" target="_blank">+7 (960) 080 60-90</a> - номер телефона</p>
+                        <p><a href="https://github.com/So1ya17" target="_blank">Github</a> - гитхаб</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </footer>
-
+    <script src="scripts/script.js" defer></script>
 </body>
+
 </html>
